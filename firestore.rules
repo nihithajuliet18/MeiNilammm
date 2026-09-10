@@ -1,0 +1,39 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helpers
+    function isSignedIn() { return request.auth != null; }
+    function isValidId(id) { return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); }
+    function incoming() { return request.resource.data; }
+    function existing() { return resource.data; }
+
+    function isValidApplication(data) {
+      return data.applicationNumber is string && data.applicationNumber.size() <= 64 &&
+             data.status is string && data.status.size() <= 32;
+    }
+
+    function isValidDocument(data) {
+      return data.applicationId is string && data.applicationId.size() <= 128 &&
+             data.type is string && data.type.size() <= 64 &&
+             data.fileUrl is string && data.fileUrl.size() <= 1024;
+    }
+
+    // Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Applications
+    match /applications/{applicationId} {
+      allow read: if isSignedIn(); // Add ownership check in production
+      allow create: if isSignedIn() && isValidApplication(incoming()) && isValidId(applicationId);
+      allow update: if isSignedIn() && isValidApplication(incoming()) && incoming().diff(existing()).affectedKeys().hasOnly(['status']);
+      
+      match /documents/{documentId} {
+        allow read: if isSignedIn();
+        allow create: if isSignedIn() && isValidDocument(incoming()) && isValidId(documentId);
+      }
+    }
+  }
+}

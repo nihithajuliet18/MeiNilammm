@@ -1,0 +1,1773 @@
+{
+  "applications": [
+    {
+      "id": "app_demo_01",
+      "applicationNumber": "TN-REV-2026-CBE-00101",
+      "applicantName": "M. Shanmugasundaram",
+      "applicantId": "usr_app_01",
+      "applicantPhone": "+91 94432 18920",
+      "applicantEmail": "m.shanmugam@gmail.com",
+      "applicationType": "Patta Transfer",
+      "context": "Rural",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore South",
+      "village": "Perur",
+      "surveyNumber": "142",
+      "subdivision": "3A",
+      "pattaNumber": "891",
+      "status": "Review Required",
+      "screeningState": "No discrepancy detected within checked evidence",
+      "createdAt": "2026-02-18T09:30:00Z",
+      "updatedAt": "2026-02-25T11:20:00Z",
+      "assignedOfficerName": "K. Rajasekaran, DRO",
+      "assignedOfficerId": "usr_rev_01",
+      "isSyntheticDemo": true,
+      "demoScenarioId": 1,
+      "priority": "Normal"
+    },
+    {
+      "id": "app_demo_02",
+      "applicationNumber": "TN-REV-2026-CBE-00102",
+      "applicantName": "V. Jayaprakash",
+      "applicantId": "usr_app_02",
+      "applicantPhone": "+91 98421 55670",
+      "applicantEmail": "jayaprakash.v@yahoo.com",
+      "applicationType": "Subdivision & Patta",
+      "context": "Rural",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore South",
+      "village": "Kuniyamuthur",
+      "surveyNumber": "84",
+      "subdivision": "2B",
+      "pattaNumber": "412",
+      "status": "Review Required",
+      "screeningState": "Discrepancy detected",
+      "createdAt": "2026-02-20T14:15:00Z",
+      "updatedAt": "2026-02-27T16:45:00Z",
+      "assignedOfficerName": "K. Rajasekaran, DRO",
+      "assignedOfficerId": "usr_rev_01",
+      "isSyntheticDemo": true,
+      "demoScenarioId": 2,
+      "priority": "Urgent"
+    },
+    {
+      "id": "app_demo_03",
+      "applicationNumber": "TN-REV-2026-CBE-00103",
+      "applicantName": "S. Kowsalyadevi",
+      "applicantId": "usr_app_03",
+      "applicantPhone": "+91 97900 81234",
+      "applicantEmail": "kowsalyadevi.s@gmail.com",
+      "applicationType": "Title Verification for Planning Permission",
+      "context": "Urban",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore North",
+      "village": "Saravanampatti",
+      "town": "Coimbatore City Corporation",
+      "ward": "Ward 12",
+      "block": "Block 4",
+      "surveyNumber": "215",
+      "subdivision": "1C",
+      "pattaNumber": "1048",
+      "status": "Field Verification Assigned",
+      "screeningState": "Field verification required",
+      "createdAt": "2026-02-22T10:00:00Z",
+      "updatedAt": "2026-03-01T08:30:00Z",
+      "assignedOfficerName": "P. Balakrishnan, Town Planning Officer",
+      "assignedOfficerId": "usr_mun_01",
+      "isSyntheticDemo": true,
+      "demoScenarioId": 3,
+      "priority": "High"
+    },
+    {
+      "id": "app_demo_04",
+      "applicationNumber": "TN-REV-2026-CBE-00104",
+      "applicantName": "A. Mohammed Farooq",
+      "applicantId": "usr_app_04",
+      "applicantPhone": "+91 93610 99881",
+      "applicantEmail": "farooq.md@outlook.com",
+      "applicationType": "Layout Regularization",
+      "context": "Natham",
+      "district": "Coimbatore",
+      "taluk": "Sulur",
+      "village": "Kalangal",
+      "surveyNumber": "302",
+      "subdivision": "4",
+      "pattaNumber": "670",
+      "status": "Review Required",
+      "screeningState": "Insufficient evidence",
+      "createdAt": "2026-02-24T11:45:00Z",
+      "updatedAt": "2026-02-28T14:10:00Z",
+      "assignedOfficerName": "M. Selvaraj, SRO",
+      "assignedOfficerId": "usr_reg_01",
+      "isSyntheticDemo": true,
+      "demoScenarioId": 4,
+      "priority": "Normal"
+    },
+    {
+      "id": "app_demo_05",
+      "applicationNumber": "TN-REV-2026-CBE-00105",
+      "applicantName": "R. Sundaram",
+      "applicantId": "usr_app_05",
+      "applicantPhone": "+91 94862 33119",
+      "applicantEmail": "sundaram.r@gmail.com",
+      "applicationType": "Natham Land Settlement",
+      "context": "Natham",
+      "district": "Coimbatore",
+      "taluk": "Pollachi",
+      "village": "Anamalai",
+      "surveyNumber": "118",
+      "subdivision": "2",
+      "pattaNumber": "254",
+      "status": "Review Required",
+      "screeningState": "Discrepancy detected",
+      "createdAt": "2026-02-26T15:20:00Z",
+      "updatedAt": "2026-03-02T09:10:00Z",
+      "assignedOfficerName": "K. Rajasekaran, DRO",
+      "assignedOfficerId": "usr_rev_01",
+      "isSyntheticDemo": true,
+      "demoScenarioId": 5,
+      "priority": "Urgent"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_101_01",
+      "applicationId": "app_demo_01",
+      "type": "Patta / Chitta",
+      "fileName": "Patta_Extract_Perur_891.pdf",
+      "fileSize": 482019,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/patta_891.pdf",
+      "checksumSha256": "9f83c12a45d781b29a8f4c017d834e5672ab1103c8e411b098f98a21f7e34cd1",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-18T09:35:00Z",
+      "pageCount": 1,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_101_02",
+      "applicationId": "app_demo_01",
+      "type": "Sale Deed",
+      "fileName": "Sale_Deed_Doc_2415_2018.pdf",
+      "fileSize": 1845102,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/sale_deed_2415.pdf",
+      "checksumSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-18T09:36:00Z",
+      "pageCount": 4,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_101_03",
+      "applicationId": "app_demo_01",
+      "type": "Encumbrance Certificate (EC)",
+      "fileName": "EC_Search_1985_to_2025.pdf",
+      "fileSize": 924102,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/ec_perur.pdf",
+      "checksumSha256": "7c4a8d09ca3762af61e59520943dc26494f8941b",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-18T09:37:00Z",
+      "pageCount": 3,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_101_04",
+      "applicationId": "app_demo_01",
+      "type": "FMB (Field Measurement Book)",
+      "fileName": "FMB_Perur_Village_142.pdf",
+      "fileSize": 1205944,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/fmb_142.pdf",
+      "checksumSha256": "2a49b8178e23f00a5d12239c89e1b212389ab",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-18T09:38:00Z",
+      "pageCount": 1,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_102_01",
+      "applicationId": "app_demo_02",
+      "type": "Sale Deed",
+      "fileName": "Registered_SaleDeed_Kuniyamuthur_1892.pdf",
+      "fileSize": 1650390,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/sale_deed_kuniyamuthur.pdf",
+      "checksumSha256": "5d81b490cae2129c91f0923e",
+      "status": "Extraction review required",
+      "uploadedAt": "2026-02-20T14:20:00Z",
+      "pageCount": 5,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_102_02",
+      "applicationId": "app_demo_02",
+      "type": "Patta / Chitta",
+      "fileName": "TamilNilam_Patta_Extract_412.pdf",
+      "fileSize": 412093,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/patta_kuniyamuthur.pdf",
+      "checksumSha256": "6b92f912c98110b4291e",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-20T14:22:00Z",
+      "pageCount": 1,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_102_03",
+      "applicationId": "app_demo_02",
+      "type": "Subdivision Order",
+      "fileName": "Subdivision_Order_Missing_Placeholder.pdf",
+      "fileSize": 0,
+      "mimeType": "application/pdf",
+      "fileUrl": "",
+      "checksumSha256": "",
+      "status": "Missing",
+      "uploadedAt": "2026-02-20T14:25:00Z",
+      "pageCount": 0,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_103_01",
+      "applicationId": "app_demo_03",
+      "type": "Sale Deed",
+      "fileName": "Sale_Deed_Saravanampatti_215.pdf",
+      "fileSize": 2109400,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/saravanampatti_deed.pdf",
+      "checksumSha256": "992a019ff212883c",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-22T10:05:00Z",
+      "pageCount": 6,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_103_02",
+      "applicationId": "app_demo_03",
+      "type": "TSLR (Town Survey Land Register)",
+      "fileName": "TSLR_Saravanampatti_Extract.pdf",
+      "fileSize": 680200,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/tslr_saravanampatti.pdf",
+      "checksumSha256": "1129bba019ec8273",
+      "status": "Source checked",
+      "uploadedAt": "2026-02-22T10:07:00Z",
+      "pageCount": 2,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_104_01",
+      "applicationId": "app_demo_04",
+      "type": "Encumbrance Certificate (EC)",
+      "fileName": "EC_Kalangal_2015_2023.pdf",
+      "fileSize": 310200,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/ec_partial.pdf",
+      "checksumSha256": "a10029bc01928374",
+      "status": "Extraction review required",
+      "uploadedAt": "2026-02-24T11:50:00Z",
+      "pageCount": 2,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_104_02",
+      "applicationId": "app_demo_04",
+      "type": "FMB (Field Measurement Book)",
+      "fileName": "FMB_Kalangal_Old_Scan_Blurred.pdf",
+      "fileSize": 1890200,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/fmb_unreadable.pdf",
+      "checksumSha256": "f81900bc382910ba",
+      "status": "Unreadable",
+      "unreadableReason": "Severe 45-degree scan skew, optical blur, and degraded ink below 120 DPI threshold",
+      "uploadedAt": "2026-02-24T11:52:00Z",
+      "pageCount": 1,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_105_01",
+      "applicationId": "app_demo_05",
+      "type": "Sale Deed",
+      "fileName": "Sale_Deed_Anamalai_1998.pdf",
+      "fileSize": 1540192,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/anamalai_deed.pdf",
+      "checksumSha256": "b491823091ffca19",
+      "status": "Extraction review required",
+      "uploadedAt": "2026-02-26T15:25:00Z",
+      "pageCount": 4,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_105_02",
+      "applicationId": "app_demo_05",
+      "type": "Identity Evidence",
+      "fileName": "Applicant_Aadhaar_Masked.pdf",
+      "fileSize": 450120,
+      "mimeType": "application/pdf",
+      "fileUrl": "/assets/sample_docs/identity_masked.pdf",
+      "checksumSha256": "381900baac991827",
+      "status": "Source verification pending",
+      "uploadedAt": "2026-02-26T15:28:00Z",
+      "pageCount": 1,
+      "isSyntheticDemo": true,
+      "version": 1
+    },
+    {
+      "id": "doc_1788947486691_401",
+      "applicationId": "app_demo_01",
+      "type": "Sale Deed",
+      "fileName": "103-5a1.pdf",
+      "fileSize": 768249,
+      "mimeType": "application/pdf",
+      "fileUrl": "/uploads/1788947486674-347801236-103-5a1.pdf",
+      "checksumSha256": "21b038ada9491ab213a60b6c3d151df6cb6841b67620294429fb6418d6777e43",
+      "status": "Extraction review required",
+      "uploadedAt": "2026-09-09T09:51:26.691Z",
+      "pageCount": 1,
+      "version": 1,
+      "isSyntheticDemo": false
+    },
+    {
+      "id": "doc_1788947646706_454",
+      "applicationId": "app_demo_01",
+      "type": "Sale Deed",
+      "fileName": "Uploaded_Document.pdf",
+      "fileSize": 1024,
+      "mimeType": "application/pdf",
+      "fileUrl": "",
+      "checksumSha256": "105112d6acf6c50bc164660da59e114d38e28596666b3bb70c4fc63816405e77",
+      "status": "Extraction review required",
+      "uploadedAt": "2026-09-09T09:54:06.706Z",
+      "pageCount": 1,
+      "version": 1,
+      "isSyntheticDemo": false
+    }
+  ],
+  "extractedFields": [
+    {
+      "id": "fld_101_01",
+      "documentId": "doc_101_01",
+      "fieldName": "Patta Number",
+      "fieldCategory": "identifier",
+      "originalText": "பட்டா எண்: 891",
+      "normalizedValue": "891",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 120,
+        "y1": 80,
+        "x2": 260,
+        "y2": 110
+      },
+      "confidence": 0.98,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_101_02",
+      "documentId": "doc_101_01",
+      "fieldName": "Survey & Subdivision",
+      "fieldCategory": "identifier",
+      "originalText": "புல எண்: 142/3A",
+      "normalizedValue": "142/3A",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 120,
+        "y1": 130,
+        "x2": 280,
+        "y2": 160
+      },
+      "confidence": 0.99,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_101_03",
+      "documentId": "doc_101_01",
+      "fieldName": "Pattadar Name",
+      "fieldCategory": "person",
+      "originalText": "பரிசீலனைக்குரியவர்: எம். சண்முகசுந்தரம்",
+      "normalizedValue": "M. Shanmugasundaram",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 300,
+        "y1": 130,
+        "x2": 520,
+        "y2": 160
+      },
+      "confidence": 0.96,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_101_04",
+      "documentId": "doc_101_02",
+      "fieldName": "Purchaser Name (Claimant)",
+      "fieldCategory": "person",
+      "originalText": "கிரயதாரர்: திரு. எம். சண்முகசுந்தரம் த/பெ முத்துசாமி கவுண்டர்",
+      "normalizedValue": "M. Shanmugasundaram s/o Muthusamy Gounder",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 80,
+        "y1": 220,
+        "x2": 450,
+        "y2": 260
+      },
+      "confidence": 0.97,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_101_05",
+      "documentId": "doc_101_02",
+      "fieldName": "Document Extent",
+      "fieldCategory": "extent",
+      "originalText": "2 ஏக்கர் 45 சென்ட் (2.45 Acres)",
+      "normalizedValue": "2.45 Acres",
+      "pageNumber": 3,
+      "boundingBox": {
+        "x1": 100,
+        "y1": 410,
+        "x2": 380,
+        "y2": 440
+      },
+      "confidence": 0.98,
+      "confidenceOrigin": "rule_exact",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_102_01",
+      "documentId": "doc_102_01",
+      "fieldName": "Deed Survey Subdivision",
+      "fieldCategory": "identifier",
+      "originalText": "புல எண்: 84/2B (பழைய உட்பிரிவு)",
+      "normalizedValue": "84/2B",
+      "pageNumber": 2,
+      "boundingBox": {
+        "x1": 90,
+        "y1": 180,
+        "x2": 240,
+        "y2": 210
+      },
+      "confidence": 0.95,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "flagged",
+      "officerComment": "Deed specifically states 84/2B, but revenue record is recorded under 84/2A."
+    },
+    {
+      "id": "fld_102_02",
+      "documentId": "doc_102_02",
+      "fieldName": "Patta Survey Subdivision",
+      "fieldCategory": "identifier",
+      "originalText": "புல எண்: 84/2A",
+      "normalizedValue": "84/2A",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 110,
+        "y1": 140,
+        "x2": 230,
+        "y2": 170
+      },
+      "confidence": 0.99,
+      "confidenceOrigin": "rule_exact",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_103_01",
+      "documentId": "doc_103_01",
+      "fieldName": "Purchased Property Extent",
+      "fieldCategory": "extent",
+      "originalText": "54,450 சதுர அடிகள் (1 ஏக்கர் 25 சென்ட்)",
+      "normalizedValue": "54450 Sq.Ft",
+      "pageNumber": 2,
+      "boundingBox": {
+        "x1": 150,
+        "y1": 320,
+        "x2": 430,
+        "y2": 360
+      },
+      "confidence": 0.99,
+      "confidenceOrigin": "rule_exact",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_103_02",
+      "documentId": "doc_103_02",
+      "fieldName": "TSLR Registered Area",
+      "fieldCategory": "extent",
+      "originalText": "Town Survey Extent: 3,804.05 Sq.Mtrs (40,946 Sq.Ft)",
+      "normalizedValue": "3804.05 Sq.M",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 180,
+        "y1": 210,
+        "x2": 450,
+        "y2": 240
+      },
+      "confidence": 0.97,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_104_01",
+      "documentId": "doc_104_01",
+      "fieldName": "EC Search Period",
+      "fieldCategory": "date",
+      "originalText": "தேடுதல் காலம்: 01-01-2015 முதல் 31-12-2023 வரை",
+      "normalizedValue": "2015-01-01 to 2023-12-31",
+      "pageNumber": 1,
+      "boundingBox": {
+        "x1": 120,
+        "y1": 90,
+        "x2": 390,
+        "y2": 120
+      },
+      "confidence": 0.94,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "flagged",
+      "officerComment": "Required 30-year search missing (1995-2015 gap)."
+    },
+    {
+      "id": "fld_105_01",
+      "documentId": "doc_105_01",
+      "fieldName": "Purchaser in 1998 Deed",
+      "fieldCategory": "person",
+      "originalText": "கிரயதாரர்: கே. சுந்தரம் (K. Sundaram)",
+      "normalizedValue": "K. Sundaram",
+      "pageNumber": 2,
+      "boundingBox": {
+        "x1": 100,
+        "y1": 200,
+        "x2": 300,
+        "y2": 230
+      },
+      "confidence": 0.96,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "flagged",
+      "officerComment": "Deed says K. Sundaram, but present applicant is R. Sundaram without legal heir proof."
+    },
+    {
+      "id": "fld_1788947490765_7286",
+      "documentId": "doc_1788947486691_401",
+      "fieldName": "Survey & Subdivision",
+      "fieldCategory": "identifier",
+      "originalText": "Survey No: 142/3A",
+      "normalizedValue": "142/3A",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947490767_7302",
+      "documentId": "doc_1788947486691_401",
+      "fieldName": "Property Extent",
+      "fieldCategory": "extent",
+      "originalText": "2.45 Acres",
+      "normalizedValue": "2.45 Acres",
+      "pageNumber": 1,
+      "confidence": 0.9,
+      "confidenceOrigin": "ocr_layout",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665477_9902",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Document Number",
+      "fieldCategory": "identifier",
+      "originalText": "4512/2021",
+      "normalizedValue": "4512/2021",
+      "pageNumber": 1,
+      "confidence": 1,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665478_7542",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Executant",
+      "fieldCategory": "person",
+      "originalText": "K. Ramanathan",
+      "normalizedValue": "K. Ramanathan",
+      "pageNumber": 1,
+      "confidence": 0.98,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665479_4803",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Claimant",
+      "fieldCategory": "person",
+      "originalText": "Anand Kumar",
+      "normalizedValue": "Anand Kumar",
+      "pageNumber": 1,
+      "confidence": 0.98,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665479_91",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Survey Number",
+      "fieldCategory": "identifier",
+      "originalText": "142/3A",
+      "normalizedValue": "142/3A",
+      "pageNumber": 1,
+      "confidence": 1,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665480_2190",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Patta Number",
+      "fieldCategory": "identifier",
+      "originalText": "891",
+      "normalizedValue": "891",
+      "pageNumber": 1,
+      "confidence": 1,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665480_5528",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Extent",
+      "fieldCategory": "extent",
+      "originalText": "2.45 Acres",
+      "normalizedValue": "2.45",
+      "pageNumber": 1,
+      "confidence": 1,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665482_7013",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Classification",
+      "fieldCategory": "classification",
+      "originalText": "Ryotwari Punja",
+      "normalizedValue": "Ryotwari Punja",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665482_7402",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Village",
+      "fieldCategory": "identifier",
+      "originalText": "Kattankulathur",
+      "normalizedValue": "Kattankulathur",
+      "pageNumber": 1,
+      "confidence": 1,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665483_3136",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Boundary North",
+      "fieldCategory": "boundary",
+      "originalText": "S.No 141 Road",
+      "normalizedValue": "S.No 141 Road",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665483_2199",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Boundary South",
+      "fieldCategory": "boundary",
+      "originalText": "Land of Sundaram",
+      "normalizedValue": "Land of Sundaram",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665484_5348",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Boundary East",
+      "fieldCategory": "boundary",
+      "originalText": "Canal",
+      "normalizedValue": "Canal",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    },
+    {
+      "id": "fld_1788947665484_8016",
+      "documentId": "doc_1788947646706_454",
+      "fieldName": "Boundary West",
+      "fieldCategory": "boundary",
+      "originalText": "S.No 142/2",
+      "normalizedValue": "S.No 142/2",
+      "pageNumber": 1,
+      "confidence": 0.95,
+      "confidenceOrigin": "gemini_multimodal",
+      "reviewState": "accepted"
+    }
+  ],
+  "parcels": [
+    {
+      "id": "pcl_demo_01",
+      "applicationId": "app_demo_01",
+      "surveyNumber": "142",
+      "subdivision": "3A",
+      "pattaNumber": "891",
+      "context": "Rural",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore South",
+      "village": "Perur",
+      "extentDocumented": {
+        "value": 2.45,
+        "unit": "Acres",
+        "normalizedSqMeters": 9914.79
+      },
+      "extentMappedSqMeters": 9912.4,
+      "classification": "Ryotwari Punja (Dry Agricultural)",
+      "boundaryNorth": "Survey No. 142/2 (Land of Marappa Gounder)",
+      "boundarySouth": "Cart Track and Survey No. 143",
+      "boundaryEast": "Survey No. 142/3B (Land of Karuppusamy)",
+      "boundaryWest": "Survey No. 141 (Village Panchayat Road)",
+      "centroidCoordinates": [
+        76.9024,
+        10.9658
+      ],
+      "geometryGeoJson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "142/3A",
+          "extent_cents": 245
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9018,
+                10.9652
+              ],
+              [
+                76.9031,
+                10.9653
+              ],
+              [
+                76.9029,
+                10.9664
+              ],
+              [
+                76.9017,
+                10.9662
+              ],
+              [
+                76.9018,
+                10.9652
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pcl_demo_02",
+      "applicationId": "app_demo_02",
+      "surveyNumber": "84",
+      "subdivision": "2B",
+      "pattaNumber": "412",
+      "context": "Rural",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore South",
+      "village": "Kuniyamuthur",
+      "extentDocumented": {
+        "value": 1.8,
+        "unit": "Acres",
+        "normalizedSqMeters": 7284.34
+      },
+      "extentMappedSqMeters": 7280.1,
+      "classification": "Ryotwari Nanja (Wet Agricultural)",
+      "boundaryNorth": "Survey No. 84/1 (Channel)",
+      "boundarySouth": "Survey No. 85 (Land of Thangavelu)",
+      "boundaryEast": "Survey No. 84/2A (Government Poramboke/Channel)",
+      "boundaryWest": "Survey No. 83 (Road)",
+      "centroidCoordinates": [
+        76.9452,
+        10.9521
+      ],
+      "geometryGeoJson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "84/2B",
+          "extent_cents": 180
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9445,
+                10.9515
+              ],
+              [
+                76.9459,
+                10.9517
+              ],
+              [
+                76.9457,
+                10.9527
+              ],
+              [
+                76.9443,
+                10.9525
+              ],
+              [
+                76.9445,
+                10.9515
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pcl_demo_03",
+      "applicationId": "app_demo_03",
+      "surveyNumber": "215",
+      "subdivision": "1C",
+      "pattaNumber": "1048",
+      "context": "Urban",
+      "district": "Coimbatore",
+      "taluk": "Coimbatore North",
+      "village": "Saravanampatti",
+      "town": "Coimbatore City Corporation",
+      "ward": "Ward 12",
+      "block": "Block 4",
+      "extentDocumented": {
+        "value": 54450,
+        "unit": "Sq.Ft",
+        "normalizedSqMeters": 5058.57
+      },
+      "extentMappedSqMeters": 3804.05,
+      "classification": "Urban Converted Commercial/Residential",
+      "boundaryNorth": "40 Feet Scheme Road",
+      "boundarySouth": "Survey No. 215/2 (Private Layout)",
+      "boundaryEast": "Survey No. 216 (Industrial Shed)",
+      "boundaryWest": "Survey No. 215/1B (Vacant Land)",
+      "centroidCoordinates": [
+        76.9928,
+        11.0842
+      ],
+      "geometryGeoJson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "215/1C",
+          "documented_sqft": 54450,
+          "mapped_sqft": 40946
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9922,
+                11.0838
+              ],
+              [
+                76.9933,
+                11.0839
+              ],
+              [
+                76.9931,
+                11.0847
+              ],
+              [
+                76.992,
+                11.0845
+              ],
+              [
+                76.9922,
+                11.0838
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pcl_demo_04",
+      "applicationId": "app_demo_04",
+      "surveyNumber": "302",
+      "subdivision": "4",
+      "pattaNumber": "670",
+      "context": "Natham",
+      "district": "Coimbatore",
+      "taluk": "Sulur",
+      "village": "Kalangal",
+      "extentDocumented": {
+        "value": 3200,
+        "unit": "Sq.Ft",
+        "normalizedSqMeters": 297.29
+      },
+      "extentMappedSqMeters": 295,
+      "classification": "Gramanatham House Site",
+      "boundaryNorth": "House of S. Selvi",
+      "boundarySouth": "20ft East-West Street",
+      "boundaryEast": "Common Pathway",
+      "boundaryWest": "House of Natarajan",
+      "centroidCoordinates": [
+        77.1245,
+        11.0182
+      ],
+      "geometryGeoJson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "302/4",
+          "extent_sqft": 3200
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.1242,
+                11.018
+              ],
+              [
+                77.1248,
+                11.0181
+              ],
+              [
+                77.1247,
+                11.0185
+              ],
+              [
+                77.1241,
+                11.0184
+              ],
+              [
+                77.1242,
+                11.018
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pcl_demo_05",
+      "applicationId": "app_demo_05",
+      "surveyNumber": "118",
+      "subdivision": "2",
+      "pattaNumber": "254",
+      "context": "Natham",
+      "district": "Coimbatore",
+      "taluk": "Pollachi",
+      "village": "Anamalai",
+      "extentDocumented": {
+        "value": 4500,
+        "unit": "Sq.Ft",
+        "normalizedSqMeters": 418.06
+      },
+      "extentMappedSqMeters": 418,
+      "classification": "Natham Settlement Residential",
+      "boundaryNorth": "Lane",
+      "boundarySouth": "Vacant Site of Muthusamy",
+      "boundaryEast": "House of Krishnan",
+      "boundaryWest": "Street",
+      "centroidCoordinates": [
+        76.9281,
+        10.5847
+      ],
+      "geometryGeoJson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "118/2",
+          "extent_sqft": 4500
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9278,
+                10.5845
+              ],
+              [
+                76.9285,
+                10.5846
+              ],
+              [
+                76.9284,
+                10.585
+              ],
+              [
+                76.9277,
+                10.5849
+              ],
+              [
+                76.9278,
+                10.5845
+              ]
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "fnd_101_01",
+      "applicationId": "app_demo_01",
+      "ruleId": "RULE-SRV-001",
+      "ruleCategory": "Survey & Subdivision",
+      "title": "Survey Number & Subdivision Concordance",
+      "outcome": "Verified Consistent",
+      "severity": "Info",
+      "explanation": "Survey number 142 and subdivision 3A match identically across Patta #891, Sale Deed #2415/2018, and Village Cadastral Map.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_101_01",
+          "documentType": "Patta / Chitta",
+          "pageNumber": 1,
+          "label": "Patta #891 (Col 2)"
+        },
+        {
+          "documentId": "doc_101_02",
+          "documentType": "Sale Deed",
+          "pageNumber": 3,
+          "label": "Schedule A, Item 1"
+        }
+      ],
+      "suggestedAction": "No action required. Identifiers reconciled.",
+      "updatedAt": "2026-02-25T11:20:00Z"
+    },
+    {
+      "id": "fnd_101_02",
+      "applicationId": "app_demo_01",
+      "ruleId": "RULE-EXT-003",
+      "ruleCategory": "Extent & Unit Reconciliation",
+      "title": "Property Extent Unit Reconciliation",
+      "outcome": "Verified Consistent",
+      "severity": "Info",
+      "explanation": "Sale Deed extent of 2.45 Acres (9,914.79 sq.m) matches the digital cadastral polygon boundary area of 9,912.40 sq.m within 0.02% allowable tolerance.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_101_02",
+          "documentType": "Sale Deed",
+          "pageNumber": 3,
+          "label": "Extent clause"
+        },
+        {
+          "coordinates": [
+            76.9024,
+            10.9658
+          ],
+          "label": "GIS Cadastral Layer EPSG:32644"
+        }
+      ],
+      "suggestedAction": "Extent verified against field measurement baseline.",
+      "updatedAt": "2026-02-25T11:20:00Z"
+    },
+    {
+      "id": "fnd_102_01",
+      "applicationId": "app_demo_02",
+      "ruleId": "RULE-SRV-002",
+      "ruleCategory": "Survey & Subdivision",
+      "title": "Subdivision Discrepancy Detected",
+      "outcome": "Discrepancy",
+      "severity": "Critical",
+      "explanation": "The registered Sale Deed #1892 refers to Survey No. 84/2B, whereas Revenue Patta #412 and A-Register show the applicant under 84/2A. No statutory subdivision order or FMB mutation note exists for 84/2B in taluk records.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_102_01",
+          "documentType": "Sale Deed",
+          "pageNumber": 2,
+          "label": "Sale Deed Schedule (Survey 84/2B)"
+        },
+        {
+          "documentId": "doc_102_02",
+          "documentType": "Patta / Chitta",
+          "pageNumber": 1,
+          "label": "Patta Register (Survey 84/2A)"
+        }
+      ],
+      "missingPrerequisites": [
+        "Sanctioned Subdivision Order",
+        "Revised FMB Sketch"
+      ],
+      "suggestedAction": "Direct applicant to produce original Tahsildar Subdivision Order or call for Taluk Head Surveyor joint boundary survey.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-02-27T16:45:00Z"
+    },
+    {
+      "id": "fnd_103_01",
+      "applicationId": "app_demo_03",
+      "ruleId": "RULE-EXT-001",
+      "ruleCategory": "Extent & Unit Reconciliation",
+      "title": "Material Extent Deficit (24.8% Shortage)",
+      "outcome": "Discrepancy",
+      "severity": "Critical",
+      "explanation": "Sale Deed claims title over 54,450 sq.ft (1.25 Acres / 5,058.57 sq.m), but digitized TSLR Ward 12 Block 4 and verified satellite parcel boundary encompass only 40,946 sq.ft (3,804.05 sq.m). Deficit of 13,504 sq.ft (0.31 Acre) detected on ground.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_103_01",
+          "documentType": "Sale Deed",
+          "pageNumber": 2,
+          "label": "Title Deed Extent: 54,450 sq.ft"
+        },
+        {
+          "documentId": "doc_103_02",
+          "documentType": "TSLR (Town Survey Land Register)",
+          "pageNumber": 1,
+          "label": "TSLR Ground Extent: 3,804.05 sq.m"
+        },
+        {
+          "coordinates": [
+            76.9928,
+            11.0842
+          ],
+          "label": "Cadastral Boundary vs Drone Orthomosaic"
+        }
+      ],
+      "suggestedAction": "Require physical field verification with total station survey. Freeze planning permission endorsement pending discrepancy resolution.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-03-01T08:30:00Z"
+    },
+    {
+      "id": "fnd_104_01",
+      "applicationId": "app_demo_04",
+      "ruleId": "RULE-EC-001",
+      "ruleCategory": "EC Coverage",
+      "title": "Incomplete Encumbrance Coverage Period",
+      "outcome": "Discrepancy",
+      "severity": "Major",
+      "explanation": "Submitted EC only covers 2015 to 2023 (8 years). Regulatory verification requires 30 continuous years (1995 to 2025). The parent title transaction referenced in 2002 remains unverified for intervening charges.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_104_01",
+          "documentType": "Encumbrance Certificate (EC)",
+          "pageNumber": 1,
+          "label": "EC Coverage Header"
+        }
+      ],
+      "missingPrerequisites": [
+        "30-Year Complete Encumbrance Certificate from SRO Sulur"
+      ],
+      "suggestedAction": "Issue document requisition notice to applicant to submit 30-year online EC from Registration Department portal.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-02-28T14:10:00Z"
+    },
+    {
+      "id": "fnd_104_02",
+      "applicationId": "app_demo_04",
+      "ruleId": "RULE-DOC-004",
+      "ruleCategory": "Document Completeness",
+      "title": "Unreadable FMB Document Scan",
+      "outcome": "Discrepancy",
+      "severity": "Major",
+      "explanation": "Uploaded FMB scan for Survey 302 is distorted by 45° skew and severe pixelation (<120 DPI). Ladder measurements and tie-line offset figures cannot be reliably extracted.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_104_02",
+          "documentType": "FMB (Field Measurement Book)",
+          "pageNumber": 1,
+          "label": "FMB Kalangal scan"
+        }
+      ],
+      "suggestedAction": "Request high-resolution 300 DPI flatbed scan or requisition digital FMB extract from Taluk Survey Archives.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-02-28T14:10:00Z"
+    },
+    {
+      "id": "fnd_105_01",
+      "applicationId": "app_demo_05",
+      "ruleId": "RULE-ID-002",
+      "ruleCategory": "Party & Identity Linkage",
+      "title": "Applicant Initial / Lineage Mismatch",
+      "outcome": "Discrepancy",
+      "severity": "Major",
+      "explanation": "Applicant is registered as \"R. Sundaram\", but the registered 1998 Deed vendor conveyance names \"K. Sundaram\". No Legal Heir Certificate or registered Rectification Deed has been produced to establish lawful linkage.",
+      "evidenceReferences": [
+        {
+          "documentId": "doc_105_01",
+          "documentType": "Sale Deed",
+          "pageNumber": 2,
+          "label": "Executant / Claimant Clause"
+        },
+        {
+          "documentId": "doc_105_02",
+          "documentType": "Identity Evidence",
+          "pageNumber": 1,
+          "label": "Aadhaar Card (R. Sundaram)"
+        }
+      ],
+      "suggestedAction": "Require applicant to provide Legal Heir Certificate issued by Revenue Tahsildar or Registered Rectification Deed.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-03-02T09:10:00Z"
+    },
+    {
+      "id": "fnd_105_02",
+      "applicationId": "app_demo_05",
+      "ruleId": "RULE-DUP-001",
+      "ruleCategory": "File Integrity & Duplication",
+      "title": "Potential Duplicate Application Pending in Adjacent Register",
+      "outcome": "Discrepancy",
+      "severity": "Critical",
+      "explanation": "An identical survey number (Survey 118/2, Anamalai) has an active unresolved application (TN-REV-2025-CBE-99418) submitted by a different applicant (K. Muthusamy) claiming adverse possession in Revenue Taluk Office.",
+      "evidenceReferences": [
+        {
+          "label": "State Cross-Taluk Registry: TN-REV-2025-CBE-99418"
+        }
+      ],
+      "suggestedAction": "Do not approve unilateral patta issuance. Summon both claimants for enquiry under Section 10 of Patta Pass Book Act 1983.",
+      "officerDecision": "Pending",
+      "updatedAt": "2026-03-02T09:10:00Z"
+    }
+  ],
+  "people": [
+    {
+      "id": "ppl_01",
+      "applicationId": "app_demo_01",
+      "nameInRecord": "M. Shanmugasundaram",
+      "relationshipName": "Muthusamy Gounder (Father)",
+      "roleInRecord": "Applicant",
+      "linkageType": "Applicant Self",
+      "linkageStatus": "Officer Confirmed",
+      "idNumberMasked": "XXXX-XXXX-8912"
+    },
+    {
+      "id": "ppl_02",
+      "applicationId": "app_demo_01",
+      "nameInRecord": "P. Arumugam",
+      "relationshipName": "Palanisamy (Father)",
+      "roleInRecord": "Executant (Vendor)",
+      "linkageType": "Direct Purchaser",
+      "linkageStatus": "Officer Confirmed"
+    },
+    {
+      "id": "ppl_03",
+      "applicationId": "app_demo_02",
+      "nameInRecord": "V. Jayaprakash",
+      "roleInRecord": "Applicant",
+      "linkageType": "Applicant Self",
+      "linkageStatus": "Proposed Linkage",
+      "idNumberMasked": "XXXX-XXXX-4411"
+    },
+    {
+      "id": "ppl_04",
+      "applicationId": "app_demo_05",
+      "nameInRecord": "R. Sundaram",
+      "relationshipName": "Ramasamy (Father)",
+      "roleInRecord": "Applicant",
+      "linkageType": "Inherited / Legal Heir",
+      "linkageStatus": "Unresolved Mismatch",
+      "idNumberMasked": "XXXX-XXXX-3319"
+    },
+    {
+      "id": "ppl_05",
+      "applicationId": "app_demo_05",
+      "nameInRecord": "K. Sundaram",
+      "relationshipName": "Kandasamy (Father)",
+      "roleInRecord": "Claimant (Purchaser)",
+      "linkageType": "Unlinked Party",
+      "linkageStatus": "Unresolved Mismatch"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_01",
+      "applicationId": "app_demo_01",
+      "documentNumber": "2415/2018",
+      "documentYear": 2018,
+      "registrationOffice": "SRO Thondamuthur",
+      "registrationDate": "2018-05-14",
+      "executant": "P. Arumugam",
+      "claimant": "M. Shanmugasundaram",
+      "extentDesc": "2.45 Acres in Sy. No. 142/3A",
+      "surveyNumbersCovered": [
+        "142/3A"
+      ],
+      "reconciledWithPrior": true,
+      "notes": "Parent title deed 1102/1994 verified in SRO records."
+    },
+    {
+      "id": "tx_02",
+      "applicationId": "app_demo_03",
+      "documentNumber": "4812/2016",
+      "documentYear": 2016,
+      "registrationOffice": "SRO Gandhipuram",
+      "registrationDate": "2016-08-22",
+      "executant": "Saravanampatti Real Estates Pvt Ltd",
+      "claimant": "S. Kowsalyadevi",
+      "extentDesc": "54,450 sq.ft in Sy. 215/1C",
+      "surveyNumbersCovered": [
+        "215/1C"
+      ],
+      "reconciledWithPrior": true,
+      "notes": "Sale deed claims 54,450 sq.ft, but TSLR record shows 40,946 sq.ft."
+    },
+    {
+      "id": "tx_03",
+      "applicationId": "app_demo_04",
+      "documentNumber": "1982/2019",
+      "documentYear": 2019,
+      "registrationOffice": "SRO Sulur",
+      "registrationDate": "2019-11-04",
+      "executant": "K. Ramasamy",
+      "claimant": "A. Mohammed Farooq",
+      "extentDesc": "3,200 sq.ft in Sy. 302/4",
+      "surveyNumbersCovered": [
+        "302/4"
+      ],
+      "reconciledWithPrior": false,
+      "notes": "EC period 1995-2015 missing to verify prior encumbrance."
+    }
+  ],
+  "spatialLayers": [
+    {
+      "id": "lyr_01",
+      "applicationId": "app_demo_01",
+      "name": "Survey Cadastral Boundary (FMB Vector)",
+      "sourceType": "GeoJSON",
+      "crs": "EPSG:4326",
+      "captureDate": "2025-11-10",
+      "accuracyMetadata": "Total Station Ground Survey ± 0.05m",
+      "visible": true,
+      "opacity": 0.9,
+      "geojson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "142/3A",
+          "extent_cents": 245
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9018,
+                10.9652
+              ],
+              [
+                76.9031,
+                10.9653
+              ],
+              [
+                76.9029,
+                10.9664
+              ],
+              [
+                76.9017,
+                10.9662
+              ],
+              [
+                76.9018,
+                10.9652
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "lyr_02",
+      "applicationId": "app_demo_01",
+      "name": "High-Resolution Satellite Imagery (0.3m)",
+      "sourceType": "GeoTIFF",
+      "crs": "EPSG:3857",
+      "captureDate": "2026-01-20",
+      "accuracyMetadata": "Orthorectified Cartosat-3 Imagery",
+      "visible": true,
+      "opacity": 0.75
+    },
+    {
+      "id": "lyr_03",
+      "applicationId": "app_demo_03",
+      "name": "TSLR Town Survey Cadastral Vector",
+      "sourceType": "GeoJSON",
+      "crs": "EPSG:4326",
+      "captureDate": "2025-08-14",
+      "accuracyMetadata": "Municipal DGPS Survey 2025",
+      "visible": true,
+      "opacity": 0.85,
+      "geojson": {
+        "type": "Feature",
+        "properties": {
+          "survey": "215/1C",
+          "documented_sqft": 54450,
+          "mapped_sqft": 40946
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9922,
+                11.0838
+              ],
+              [
+                76.9933,
+                11.0839
+              ],
+              [
+                76.9931,
+                11.0847
+              ],
+              [
+                76.992,
+                11.0845
+              ],
+              [
+                76.9922,
+                11.0838
+              ]
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "fieldTasks": [
+    {
+      "id": "tsk_01",
+      "applicationId": "app_demo_03",
+      "assignedOfficerName": "S. Anandhi, Field Surveyor",
+      "assignedOfficerId": "usr_srv_01",
+      "assignedAt": "2026-03-01T09:00:00Z",
+      "parcelId": "pcl_demo_03",
+      "status": "Pending Inspection",
+      "checklist": [
+        {
+          "item": "Verify ground physical boundaries against FMB tie-lines",
+          "completed": false
+        },
+        {
+          "item": "Identify source of 13,504 sq.ft spatial deficit on North/East boundaries",
+          "completed": false
+        },
+        {
+          "item": "Capture minimum 4 geotagged boundary junction photos with RTK GNSS accuracy",
+          "completed": false
+        },
+        {
+          "item": "Check for encroachment by adjacent industrial shed on Survey 216",
+          "completed": false
+        }
+      ],
+      "groundMeasurements": [
+        {
+          "boundary": "North",
+          "documentedMeters": 75,
+          "groundMeasuredMeters": 62.4,
+          "deviationMeters": -12.6
+        },
+        {
+          "boundary": "South",
+          "documentedMeters": 74.8,
+          "groundMeasuredMeters": 61.9,
+          "deviationMeters": -12.9
+        },
+        {
+          "boundary": "East",
+          "documentedMeters": 67.4,
+          "groundMeasuredMeters": 61.2,
+          "deviationMeters": -6.2
+        },
+        {
+          "boundary": "West",
+          "documentedMeters": 67.2,
+          "groundMeasuredMeters": 61,
+          "deviationMeters": -6.2
+        }
+      ],
+      "photos": [
+        {
+          "id": "pht_01",
+          "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&auto=format&fit=crop&q=60",
+          "caption": "North-East junction showing industrial boundary wall overlapping parcel boundary",
+          "timestamp": "2026-03-01T14:30:00Z",
+          "gpsCoordinates": [
+            76.9933,
+            11.0839
+          ],
+          "gpsAccuracyMeters": 0.08
+        }
+      ],
+      "officerObservations": "Preliminary visual check indicates that the adjacent industrial shed constructed a concrete compound wall inside Survey 215/1C approximately 12 metres inward."
+    }
+  ],
+  "sharingGrants": [
+    {
+      "id": "grt_01",
+      "applicationId": "app_demo_03",
+      "evidenceScope": "Planning & Town Survey Records (TSLR extract & Municipal Tax Ledger)",
+      "targetDepartment": "Town and Country Planning",
+      "targetOfficerName": "P. Balakrishnan, Town Planning Officer",
+      "targetOfficerId": "usr_mun_01",
+      "requesterOfficerName": "K. Rajasekaran, DRO",
+      "requesterOfficerId": "usr_rev_01",
+      "purpose": "Verification of scheme road setback and planning layout approval prior to regularization",
+      "permission": "Read Only",
+      "grantedAt": "2026-02-23T11:00:00Z",
+      "expiresAt": "2026-03-25T11:00:00Z",
+      "isRevoked": false
+    },
+    {
+      "id": "grt_02",
+      "applicationId": "app_demo_01",
+      "evidenceScope": "Electricity Service Connection Record #TNEB-CBE-99124",
+      "targetDepartment": "Revenue",
+      "targetOfficerName": "K. Rajasekaran, DRO",
+      "targetOfficerId": "usr_rev_01",
+      "requesterOfficerName": "V. Senthilkumar, AE TANGEDCO",
+      "requesterOfficerId": "usr_utl_01",
+      "purpose": "Confirmation of active agricultural service connection and energisation date",
+      "permission": "Read Only",
+      "grantedAt": "2026-02-19T14:00:00Z",
+      "expiresAt": "2026-03-19T14:00:00Z",
+      "isRevoked": false
+    }
+  ],
+  "accessRequests": [
+    {
+      "id": "req_01",
+      "applicationId": "app_demo_02",
+      "fromDepartment": "Revenue",
+      "toDepartment": "Survey and Land Records",
+      "requestedItem": "Original 1978 Village Resurvey FMB and Field Ladder Records for Survey 84",
+      "reason": "Determine whether subdivision 84/2B was officially bifurcated from 84/2A or if it is an unapproved private division.",
+      "status": "Pending",
+      "requestedAt": "2026-02-28T10:15:00Z"
+    }
+  ],
+  "auditEvents": [
+    {
+      "id": "aud_1788947665485_978",
+      "applicationId": "app_demo_01",
+      "timestamp": "2026-09-09T09:54:25.485Z",
+      "actorName": "Real-time Ingestion Agent",
+      "actorRole": "revenue_officer",
+      "actorDepartment": "General Administration",
+      "action": "DOCUMENT_UPLOADED",
+      "details": "Real-time ingest of Uploaded_Document.pdf (Sale Deed). Extracted 12 properties via gemini_multimodal. SHA: 105112d6acf6c50b...",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "aud_1788947490768_278",
+      "applicationId": "app_demo_01",
+      "timestamp": "2026-09-09T09:51:30.768Z",
+      "actorName": "Real-time Ingestion Agent",
+      "actorRole": "revenue_officer",
+      "actorDepartment": "General Administration",
+      "action": "DOCUMENT_UPLOADED",
+      "details": "Real-time ingest of 103-5a1.pdf (Sale Deed). Extracted 2 properties via rule_fallback. SHA: 21b038ada9491ab2...",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "aud_reset_1788940808853",
+      "timestamp": "2026-09-09T08:00:08.853Z",
+      "actorName": "System Administrator",
+      "actorRole": "system_administrator",
+      "actorDepartment": "General Administration",
+      "action": "DEMO_DATA_RESET",
+      "details": "Standard 5 walkthrough cases reset to original baseline. Real applications preserved."
+    },
+    {
+      "id": "aud_01",
+      "applicationId": "app_demo_01",
+      "timestamp": "2026-02-18T09:30:00Z",
+      "actorName": "M. Shanmugasundaram",
+      "actorRole": "applicant",
+      "actorDepartment": "Revenue",
+      "action": "APPLICATION_SUBMITTED",
+      "details": "Citizen submitted online Patta Transfer application with 4 attached documents.",
+      "ipAddress": "157.49.201.42"
+    },
+    {
+      "id": "aud_02",
+      "applicationId": "app_demo_01",
+      "timestamp": "2026-02-18T09:40:00Z",
+      "actorName": "System Verification Engine (MeiNilam Core)",
+      "actorRole": "system_administrator",
+      "actorDepartment": "General Administration",
+      "action": "AUTOMATED_SCREENING_EXECUTED",
+      "details": "Screening concluded: No discrepancy detected within checked evidence. 2 verified rules passed."
+    },
+    {
+      "id": "aud_03",
+      "applicationId": "app_demo_03",
+      "timestamp": "2026-02-22T10:15:00Z",
+      "actorName": "System Verification Engine (MeiNilam Core)",
+      "actorRole": "system_administrator",
+      "actorDepartment": "General Administration",
+      "action": "SPATIAL_DEFICIT_FLAGGED",
+      "details": "Deterministic rule RULE-EXT-001 flagged 24.8% spatial deficit between document deed (54,450 sq.ft) and digitized TSLR boundary (40,946 sq.ft)."
+    },
+    {
+      "id": "aud_04",
+      "applicationId": "app_demo_03",
+      "timestamp": "2026-03-01T09:00:00Z",
+      "actorName": "P. Balakrishnan, Town Planning Officer",
+      "actorRole": "municipal_officer",
+      "actorDepartment": "Town and Country Planning",
+      "action": "FIELD_VERIFICATION_ASSIGNED",
+      "details": "Task assigned to Field Surveyor S. Anandhi to inspect North/East compound wall encroachment."
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "eval_real_01",
+      "name": "Tamil Nadu Urban Land Records Benchmark (Held-out Set)",
+      "version": "v2.4.0",
+      "sampleSize": 120,
+      "realOrSynthetic": "Real Labelled Cases",
+      "heldOutPartition": "Coimbatore & Tiruppur Districts 2024-2025 Cases",
+      "lastRunDate": "2026-02-28",
+      "metrics": {
+        "fieldExactMatchAccuracy": 0.942,
+        "parcelMatchPrecision": 0.961,
+        "parcelMatchRecall": 0.938,
+        "personLinkPrecision": 0.915,
+        "personLinkRecall": 0.892,
+        "conflictF1Score": 0.934,
+        "spatialRmseMeters": 0.42,
+        "boundaryIoU": 0.928,
+        "falseCleanRate": 0.012,
+        "abstentionRate": 0.065,
+        "avgProcessingSeconds": 4.8,
+        "avgOfficerReviewMinutes": 8.5
+      }
+    },
+    {
+      "id": "eval_synth_01",
+      "name": "Controlled Edge-Case Synthetic Stress Suite",
+      "version": "v1.2.0",
+      "sampleSize": 50,
+      "realOrSynthetic": "Controlled Synthetic Benchmark",
+      "heldOutPartition": "Synthetic Mismatch Stress Suite (Isolated)",
+      "lastRunDate": "2026-03-01",
+      "metrics": {
+        "fieldExactMatchAccuracy": 0.98,
+        "parcelMatchPrecision": 0.975,
+        "parcelMatchRecall": 0.96,
+        "personLinkPrecision": 0.94,
+        "personLinkRecall": 0.93,
+        "conflictF1Score": 0.968,
+        "spatialRmseMeters": 0.18,
+        "boundaryIoU": 0.974,
+        "falseCleanRate": 0,
+        "abstentionRate": 0.04,
+        "avgProcessingSeconds": 3.2,
+        "avgOfficerReviewMinutes": 6
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_rev_01",
+      "email": "k.rajasekaran@rev.gov.in",
+      "name": "K. Rajasekaran, DRO",
+      "role": "revenue_officer",
+      "department": "Revenue",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "taluk": "Coimbatore South",
+        "village": "Perur"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_reg_01",
+      "email": "m.selvaraj@reg.gov.in",
+      "name": "M. Selvaraj, SRO",
+      "role": "registration_officer",
+      "department": "Registration",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "taluk": "Coimbatore South"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_srv_01",
+      "email": "s.anandhi@survey.gov.in",
+      "name": "S. Anandhi, Field Surveyor",
+      "role": "survey_officer",
+      "department": "Survey and Land Records",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "taluk": "Coimbatore South",
+        "village": "Perur"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_mun_01",
+      "email": "p.balakrishnan@dtcp.gov.in",
+      "name": "P. Balakrishnan, Town Planning Officer",
+      "role": "municipal_officer",
+      "department": "Town and Country Planning",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "town": "Coimbatore City"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_utl_01",
+      "email": "v.senthil@tneb.gov.in",
+      "name": "V. Senthilkumar, AE TANGEDCO",
+      "role": "utility_officer",
+      "department": "Public Works & Utilities",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "ward": "Ward 24"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_app_01",
+      "email": "m.shanmugam@gmail.com",
+      "name": "M. Shanmugasundaram",
+      "role": "applicant",
+      "department": "Revenue",
+      "jurisdiction": {
+        "district": "Coimbatore",
+        "taluk": "Coimbatore South",
+        "village": "Perur"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "usr_admin_01",
+      "email": "admin.bennitta@meinilam.local",
+      "name": "S. Bennitta (System Admin)",
+      "role": "system_administrator",
+      "department": "General Administration",
+      "jurisdiction": {
+        "district": "All"
+      },
+      "createdAt": "2026-03-01T10:00:00Z"
+    }
+  ]
+}

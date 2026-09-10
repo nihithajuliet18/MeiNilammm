@@ -1,0 +1,37 @@
+{
+  "predicted_class": "insufficient_evidence",
+  "uncalibrated_model_probability": 0.9997112439335294,
+  "baseline_raw_score": 0.32198931279585286,
+  "predicted_raw_score": 10.958297045901968,
+  "top_model_drivers": [
+    {
+      "feature": "extent_relative_difference",
+      "value": null,
+      "shap_raw_score": 6.2019513738190515
+    },
+    {
+      "feature": "units_missing",
+      "value": 1.0,
+      "shap_raw_score": 3.7436931158635005
+    },
+    {
+      "feature": "party_diff",
+      "value": 0.0,
+      "shap_raw_score": 0.3793495475963538
+    },
+    {
+      "feature": "fmb_relative_difference",
+      "value": 0.0095916740454451,
+      "shap_raw_score": 0.28264176386978007
+    },
+    {
+      "feature": "ec_shortfall_years",
+      "value": 0.0,
+      "shap_raw_score": 0.26918287858789985
+    }
+  ],
+  "unavailable_features": [
+    "extent_relative_difference"
+  ],
+  "scope": "Synthetic tabular prototype; human review required."
+}

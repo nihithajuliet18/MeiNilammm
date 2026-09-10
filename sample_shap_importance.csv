@@ -1,0 +1,14 @@
+feature,mean_absolute_shap_raw_score
+extent_relative_difference,1.0224122738136403
+party_diff,0.6377221100579408
+history_link_present,0.5607323041794824
+ec_shortfall_years,0.5568333396854034
+fmb_relative_difference,0.5215146445011891
+jurisdiction_diff,0.30941603666777595
+subdivision_diff,0.2514014725364488
+unreadable_fields,0.21514928516756954
+missing_required_documents,0.20176411050658244
+survey_diff,0.20145065432448647
+units_missing,0.15525980158510203
+effective_year_difference,0.048566105390919906
+fmb_geometry_sufficient,0.0

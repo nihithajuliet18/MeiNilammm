@@ -1,0 +1,6 @@
+{
+  "name": "மெய்நிலம் (MeiNilam)",
+  "description": "AI-Assisted Land Document Verification System - Automated Integration and Intelligent Harmonization of Multi-source Geospatial Data for Urban Land Record Management",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

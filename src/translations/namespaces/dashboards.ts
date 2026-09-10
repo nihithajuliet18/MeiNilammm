@@ -1,0 +1,51 @@
+/**
+ * Dashboards & Role Action Center Translations Namespace
+ * Roles, KPI counts, clearance workflows, queues, and task lists
+ */
+
+export const dashboardTranslations: Record<string, Record<string, string>> = {
+  ta: {
+    dash_total_cases: 'மொத்த நில வழக்குகள்',
+    dash_in_progress: 'செயல்பாட்டில் உள்ளவை',
+    dash_review_needed: 'அதிகாரி மறுஆய்வு தேவை',
+    dash_discrepancies: 'கண்டறியப்பட்ட முரண்பாடுகள்',
+    dash_field_pending: 'கள ஆய்வு நிலுவையில்',
+    dash_cleared_ready: 'அனுமதி வழங்கப்பட்டு தயார்',
+    dash_queue_title: 'பணி வரிசை மற்றும் வழக்குகள் பட்டியல்',
+    dash_filter_all: 'அனைத்து நிலைகளும்',
+    dash_table_case_id: 'வழக்கு எண்',
+    dash_table_applicant: 'விண்ணப்பதாரர் & தொலைபேசி',
+    dash_table_parcel: 'நில விபரம் (கிராமம் / சர்வே எண்)',
+    dash_table_screening: 'தானியங்கி சரிபார்ப்பு முடிவு',
+    dash_table_status: 'தற்போதைய நிலை',
+    dash_table_actions: 'நடவடிக்கை',
+    dash_clearance_title: 'துறை சார்ந்த பரிந்துரை மற்றும் தடையில்லா சான்று (NOC)',
+    dash_clearance_remarks_placeholder: 'சட்டப்பூர்வ ஆய்வு குறிப்புகள், புலத்தணிக்கை முடிவுகள் அல்லது ஆட்சேபனைகளை உள்ளிடவும்...',
+    dash_grant_clearance: 'துறை ஒப்புதல் / தடையில்லா சான்று வழங்கவும்',
+    dash_forward_review: 'கோட்டாட்சியர் மறுஆய்வுக்கு அனுப்பவும்',
+    dash_applicant_portal: 'விண்ணப்பதாரர் கண்காணிப்பு தளம்',
+    dash_applicant_progress: 'விண்ணப்பத்தின் நிகழ்நேர முன்னேற்ற நிலை',
+  },
+  en: {
+    dash_total_cases: 'Total Active Dossiers',
+    dash_in_progress: 'In Progress',
+    dash_review_needed: 'Review Required',
+    dash_discrepancies: 'Flagged Discrepancies',
+    dash_field_pending: 'Field Inspection Pending',
+    dash_cleared_ready: 'Approved & Concurred',
+    dash_queue_title: 'Operational Case Queue & Docket',
+    dash_filter_all: 'All Statuses',
+    dash_table_case_id: 'Dossier ID',
+    dash_table_applicant: 'Applicant & Phone',
+    dash_table_parcel: 'Parcel Spec (Village / Survey No)',
+    dash_table_screening: 'Automated Screening',
+    dash_table_status: 'Workflow Status',
+    dash_table_actions: 'Actions',
+    dash_clearance_title: 'Departmental Concurrence & Clearance Workbench',
+    dash_clearance_remarks_placeholder: 'Enter statutory findings, verification conditions, or reasoned objections...',
+    dash_grant_clearance: 'Grant Official Clearance',
+    dash_forward_review: 'Forward to Reviewing Authority',
+    dash_applicant_portal: 'Applicant Self-Service Portal',
+    dash_applicant_progress: 'Application Real-Time Lifecycle Progress',
+  },
+};

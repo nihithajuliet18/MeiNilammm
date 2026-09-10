@@ -1,0 +1,10 @@
+{
+  "dataset": "Wholly synthetic MeiNilam records",
+  "test_rows": 30000,
+  "accuracy": 0.9995666666666667,
+  "balanced_accuracy": 0.9997002758895327,
+  "macro_f1": 0.999484802479678,
+  "false_clear_count": 2,
+  "actual_non_consistent_count": 20879,
+  "false_clear_rate_among_non_consistent": 9.579002825805833e-05
+}

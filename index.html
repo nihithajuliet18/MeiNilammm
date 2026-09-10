@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ta">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>மெய்நிலம் (MeiNilam) - Land Document & Geospatial Verification System</title>
+    <meta name="description" content="AI-Assisted Land Document Verification System - Automated Integration and Intelligent Harmonization of Multi-source Geospatial Data for Urban Land Record Management" />
+    <meta property="og:title" content="மெய்நிலம் (MeiNilam) - Land Document & Geospatial Verification System" />
+    <meta property="og:description" content="AI-Assisted Land Document Verification System - Automated Integration and Intelligent Harmonization of Multi-source Geospatial Data for Urban Land Record Management" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Google Fonts for Tamil (Noto Sans Tamil) and multilingual typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- MapLibre GL CSS -->
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('meinilam_theme');
+          var isDark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0A101D] dark:text-[#F1F5F9] font-sans antialiased selection:bg-teal-500/20 selection:text-teal-900 dark:selection:text-teal-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

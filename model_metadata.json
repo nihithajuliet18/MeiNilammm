@@ -1,0 +1,49 @@
+{
+  "classes": [
+    "consistent_within_checked_evidence",
+    "ec_coverage_gap",
+    "extent_conflict",
+    "identifier_conflict",
+    "insufficient_evidence",
+    "party_link_review",
+    "spatial_discrepancy"
+  ],
+  "features": [
+    "jurisdiction_diff",
+    "survey_diff",
+    "subdivision_diff",
+    "party_diff",
+    "units_missing",
+    "extent_relative_difference",
+    "effective_year_difference",
+    "history_link_present",
+    "ec_shortfall_years",
+    "unreadable_fields",
+    "missing_required_documents",
+    "fmb_geometry_sufficient",
+    "fmb_relative_difference"
+  ],
+  "seed": 26013,
+  "tree_count": 497,
+  "training_rows": 140000,
+  "validation_rows": 30000,
+  "test_rows": 30000,
+  "shap_sample_rows": 200,
+  "versions": {
+    "catboost": "1.2.10",
+    "shap": "0.52.0",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "scikit-learn": "1.6.1",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.0"
+  },
+  "scope": "Synthetic structured verification prototype.",
+  "limitations": [
+    "No real-world accuracy validation.",
+    "No PDF extraction or FMB image processing.",
+    "No multilingual OCR or translation training.",
+    "SHAP explains model scores, not legal or causal findings.",
+    "Model probabilities are uncalibrated."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "Application": {
+      "title": "Application",
+      "description": "Land document verification application",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "applicationNumber": { "type": "string" },
+        "status": { "type": "string" },
+        "applicantName": { "type": "string" }
+      },
+      "required": ["id", "applicationNumber", "status"]
+    },
+    "Document": {
+      "title": "Document",
+      "description": "Uploaded land document",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "applicationId": { "type": "string" },
+        "type": { "type": "string" },
+        "fileUrl": { "type": "string" }
+      },
+      "required": ["id", "applicationId", "type", "fileUrl"]
+    }
+  },
+  "firestore": {
+    "applications/{applicationId}": {
+      "schema": "Application",
+      "description": "Land applications"
+    },
+    "applications/{applicationId}/documents/{documentId}": {
+      "schema": "Document",
+      "description": "Documents for an application"
+    }
+  }
+}
